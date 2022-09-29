@@ -1,4 +1,4 @@
-const backendApi = 'http://localhost:1515'
+const backendApi = 'https://youtubebackend.netlify.app'
 
 async function request (path, method, body) {
 	const response = await fetch(backendApi + path, {
