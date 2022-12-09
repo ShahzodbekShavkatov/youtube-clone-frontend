@@ -1,4 +1,4 @@
-const backendApi = 'https://youtubebackendd.herokuapp.com'
+const backendApi = 'https://youtube-backend.netlify.app'
 
 async function request (path, method, body) {
 	const response = await fetch(backendApi + path, {
